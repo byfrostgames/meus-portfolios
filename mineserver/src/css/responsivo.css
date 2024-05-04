@@ -1,0 +1,114 @@
+@media (max-width: 664px) {
+.cabecalho{
+    align-items: center;
+}
+
+
+.cabecalho .logo .icon{
+  max-width: 80px;
+  max-height: 80px;
+}
+.cabecalho .logo .title{
+    text-align: center;
+}
+
+cabecalho .menu .sup2{
+    display: flex;
+    align-items: center;
+}
+}
+
+@media (max-width: 514px) {
+    .cabecalho{
+        align-items: center;
+    }
+
+    .cabecalho .logo .title{
+        text-align: center;
+        font-size: x-large;
+        
+    }
+
+    .cabecalho .menu{
+        align-items: center
+        
+    }
+
+
+    .cabecalho .menu .sup2{
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .cabecalho{
+        align-items: center;
+    }
+
+    .cabecalho .logo .icon{
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    .cabecalho .logo .title{
+        font-size: larger;
+    }
+
+
+    .cabecalho .menu{
+        font-size: xx-small;
+    }
+
+    .cabecalho .menu{
+        align-items: center;
+
+    } 
+}
+
+@media (max-width: 400px) {
+    .cabecalho{
+        height: 80px;
+        background-color: #0b0b0b;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 80px;
+        border-bottom: 1px solid #282828;
+        font-family: mineplayer;   
+        }
+
+    .cabecalho .logo .icon{
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .cabecalho .logo .title{
+        font-size: medium;
+    }
+
+    .cabecalho .menu{
+        align-items: center;
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 370px) {
+    
+    .cabecalho {
+        justify-content: center;
+        
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .title{
+        display: none;
+    }
+
+.cabecalho .menu{
+    font-size: xx-small;
+    flex-direction: column;
+}
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: #282828;
+    color: #fff;
+}
+
+.cabecalho{
+height: 80px;
+background-color: #0b0b0b;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 80px;
+border-bottom: 1px solid #282828;
+font-family: mineplayer;   
+}
+
+.cabecalho .logo {
+    display: flex;
+	gap: 15px;
+}
+
+.info{
+    font-family: mineplayer;
+}
+
+.servidores .epidemic-z{ 
+padding: 10px 10px;
+background-color: black;
+color: black;
+text-decoration: none;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.servidores .RedeDragon{ 
+    padding: 10px 10px;
+    background-color: black;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ff{
+    flex-direction: column;
+    align-items: center;
+    font-family: mineplayer;
+    font-size: x-large;
+}
